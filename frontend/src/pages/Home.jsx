@@ -23,13 +23,13 @@ const Home = () => {
                   style={{ textDecoration: "none" }}
                   data-aos="slide-up"
                 >
-                  <button className="btn-home">Speak Your Mind</button>
+                  <button className="btn-home">Create Note</button>
                 </Link>
               </>
             ) : (
               <>
                 <div className="home">
-                  <h1>Welcome To The React Voice Analyzer App</h1>
+                  <h1>Welcome To The React Note Maker App</h1>
                 </div>
                 <Link className="link" to="/login">
                   <button className="btn btn-home">Proceed</button>

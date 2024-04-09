@@ -15,7 +15,7 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 285px; /* Set a fixed height for uniformity */
+  height: 325px; /* Set a fixed height for uniformity */
   margin-bottom: 10px; /* Adjust the bottom margin */
 }
 
@@ -24,7 +24,7 @@
 }
 
 .custom-background_1 {
-  background-color: rgb(119, 116, 116);
+  background-color: #e7e5e5;
   color: rgb(0, 0, 0);
 }
 

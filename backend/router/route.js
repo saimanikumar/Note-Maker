@@ -16,7 +16,7 @@ router.post('/api/user/note', noteController.createNote);
 router.put('/api/user/note/:id', noteController.editNote);
 router.delete('/api/user/note/:id', noteController.deleteNote);
 router.get('/api/user/notes/:userId', noteController.getNotes);
-router.get('/api/user/note/:id', noteController.getNoteById); // New route to get a note by ID
+router.get('/api/user/note/:id', noteController.getNoteById); 
 
 
 module.exports = router;

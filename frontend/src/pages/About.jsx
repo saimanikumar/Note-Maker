@@ -56,7 +56,7 @@ const About = () => {
               </a>
               &nbsp;&nbsp;&nbsp; This is my documentation link:&nbsp;&nbsp;
               <a
-                href="https://docs.google.com/document/d/1U6dSLWXAFUqpBLf2KXjhAWgn3IQlcaEN/edit?usp=sharing&ouid=118321158905907285317&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1300Gb7Z8vm4Asb0l2Z6AE0GAfzCWOW6w/edit?usp=sharing&ouid=103984165654683084270&rtpof=true&sd=true"
                 target="_blank"
               >
                 <i className="bi bi-book" />
