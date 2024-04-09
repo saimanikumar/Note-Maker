@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { AuthContext } from "../context/AuthContext";
 import axios from "axios";
 import { Link } from "react-router-dom"; // Import Link for navigation
-import "./Speeches.css"; // Import your CSS file for Speeches styling
+import "./Notes.css"; // Import your CSS file for Speeches styling
 import host from "../hostUrl";
 
 const Speeches = () => {
@@ -53,7 +53,7 @@ const Speeches = () => {
           {notes.map((note) => (
             <div className="speech-card" key={note._id}>
               <div className="speech-text">
-                <div className="custom-background_1">{note.title}</div>
+                <div className="custom-background_1 mb-2">{note.title}</div>
                 <div className="custom-background_12" dangerouslySetInnerHTML={renderNoteContent(note.content)} />
               </div>
               <div className="button-group d-flex justify-content-center custom-background">

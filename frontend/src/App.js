@@ -15,7 +15,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
-import Speeches from "./pages/Speeches";
+import Notes from "./pages/Notes";
 import { useAuth } from "./context/AuthContext";
 import NoteEdit from "./pages/NoteEdit"; // Import the NoteEdit component
 
@@ -44,7 +44,7 @@ function Layout() {
           path="/user/speeches"
           element={
             <RequireAuth>
-              <Speeches />
+              <Notes/>
             </RequireAuth>
           }
         />
