@@ -2,6 +2,11 @@
 
 Effortlessly jot down your ideas and organize your thoughts with Note Maker.
 
+## Demo
+
+Explore the live application: [https://note-maker-react.onrender.com](https://note-maker-react.onrender.com)
+
+
 ## Features
 
 - **Intuitive Note Creation:** Create notes quickly and easily, keeping track of all your important information.
