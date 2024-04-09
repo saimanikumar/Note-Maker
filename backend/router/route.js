@@ -21,12 +21,4 @@ router.get('/api/user/note/:id', noteController.getNoteById); // New route to ge
 
 module.exports = router;
 
-// // Speech routes
-// router.post('/api/user/speech', speechController.saveSpeech);
-// router.delete('/api/user/speech/:id', speechController.deleteSpeech);
-// router.get('/api/user/speeches/:userId', speechController.getSpeeches);
-// router.get('/api/user/wordFrequencies/:userId', speechController.getWordFrequencies); 
-// router.get('/api/user/compareFrequencies/:userId', speechController.compareWordFrequencies); 
-// router.get("/api/user/topPhrases/:userId", speechController.getTopPhrases); 
-// router.get("/api/user/similarUsers/:userId", speechController.getSimilarUsers); 
 

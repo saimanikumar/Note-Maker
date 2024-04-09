@@ -1,25 +1,18 @@
-# Voice Analyzer: Unleash the Power of Your Voice
+# Note Maker: Capture Your Thoughts Seamlessly
 
-Unlock the insights hidden within your speech patterns and discover new dimensions of language analysis with Voice Analyzer.
-
-## Demo
-
-Explore the live application: [https://voice-analyzer-kyro-react.onrender.com/](https://voice-analyzer-kyro-react.onrender.com/)
+Effortlessly jot down your ideas and organize your thoughts with Note Maker.
 
 ## Features
 
-- **Speech-to-Text Transcription:** Effortlessly capture your thoughts and ideas with accurate speech-to-text conversion.
-- **Multilingual Translation:** Seamlessly transcend language barriers with real-time translation to English, ensuring understanding for everyone.
-- **Personalized Speech History:** Track your unique speaking patterns and review past transcriptions to uncover valuable insights.
-- **Word Frequency Analysis:** Dive into the words you use most frequently and compare your linguistic habits to those of the wider community.
-- **Top Phrase Identification:** Discover the phrases that define your communication style and gain a deeper understanding of your verbal expressions.
-- **Speech Similarity Detection:** Explore connections with other users based on speech patterns and find those who share similar linguistic tendencies.
+- **Intuitive Note Creation:** Create notes quickly and easily, keeping track of all your important information.
+- **Rich Text Formatting:** Customize your notes with bold, italic, and other formatting options to highlight key points.
+- **Responsive Design:** Access your notes from any device with a responsive design that adapts to different screen sizes.
 
 ## Technologies Used
 
 - Frontend: React.js
 - Backend: Node.js
 - Database: MongoDB
-- Speech Recognition: react-speech-recognition
-- Translation: Google Translate API
-- NLP: Natural library(js)
+- Authentication: JSON Web Tokens (JWT)
+- Data Encryption: bcrypt.js
+- Responsive UI: Bootstrap
